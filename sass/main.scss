@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+@import "./utils/variables";
+@import "./utils/mixins";
+@import "./base/base";
+@import "./components/buttons";
+@import "./layout/section.scss";
+@import "./layout/footer.scss";
+
+
+body{
+    font-family: $font;
+    color: $color-primary;
+    font-size: $font-size;
+    background-image: url(../images/bg-header-mobile.png);
+    background-repeat: no-repeat;
+    @media (min-width: 376px){
+        background-image: url(../images/bg-header-desktop.png);
+        background-size: 100%;
+    }
+}
+header{
+    height: 320px;
+    text-align: center;
+    img{
+        margin-top: 122px;
+    }
+}
+main{
+    width: 310px;
+    @include flex-center;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+}
+
+.heading{
+    font-weight: $weight-bold;
+}
+h1{
+    font-size: 1.9rem;
+    margin-bottom: 24px;
+    @media (min-width: 1110px){
+        font-size: 245%;
+    }
+}
+h2{
+    font-size: 1.7rem;
+    margin-bottom: 24px;
+    @media (min-width: 1110px){
+        font-size: 2.1rem;
+    }
+}
+h3{
+    font-size: 1.4rem;
+    margin-bottom: 24px;
+}
+p{
+    font-size: 1rem;
+    color: $color-primary-light;
+    line-height: 1.5rem;
+    margin-bottom: 66px;
+    @media (min-width: 1110px){
+        width: 696px;
+    }
+}
+.img_screen{
+    width: 100%;
+}

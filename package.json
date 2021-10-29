@@ -1,0 +1,26 @@
+{
+  "name": "clipboard-landing-page-master",
+  "version": "1.0.0",
+  "description": "challenge Frontend Mentor",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarolineSenes/-Integration_maquette-_Clipboard-landing-page-master.git"
+  },
+  "keywords": [
+    "html5",
+    "css3",
+    "sass",
+    "frontend mentor",
+    "landingpage"
+  ],
+  "author": "Caroline ALEXANDRE",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarolineSenes/-Integration_maquette-_Clipboard-landing-page-master/issues"
+  },
+  "homepage": "https://github.com/CarolineSenes/-Integration_maquette-_Clipboard-landing-page-master#readme"
+}

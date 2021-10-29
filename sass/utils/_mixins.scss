@@ -1,0 +1,16 @@
+@mixin flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin box-shadow($color){
+    -webkit-box-shadow: 2px 16px 50px -20px $color;
+    -moz-box-shadow: 2px 16px 50px -20px $color;
+    box-shadow: 2px 16px 50px -20px $color;
+}
+
+@mixin hover{
+    filter: brightness(130%);
+    cursor: pointer;
+}
